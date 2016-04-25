@@ -5,9 +5,9 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('views/index.html');
 });
-router.get('/research', function(req, res, next) {
-	  res.render('http://www.rcec.sinica.edu.tw/~cylin/lab/performance.htm');
-});
 
+router.get('/WRT', function(req, res, next) {
+	  res.render('views/W_R_T.html');
+});
 
 module.exports = router;

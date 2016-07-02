@@ -8,7 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNJNlhAzfrjHaczKATnF7QSIV8Wt46mMA"></script>
+    
     <title>中研院環變中心 - 空氣品質與區域氣候研究室</title>
 
    <!-- Bootstrap Core CSS -->
@@ -31,23 +32,26 @@
 </head>
 
 <body>
+    <div class="container">
 
-    <div class="row">
-            <div class="box">
-                <div class="col-lg-16 text-center">
-                    <!-- <h2 class="brand-before">
-                        <small>Welcome to</small>
-                    </h2> -->
-                    <h1 class="brand-name">空氣品質與區域氣候研究室</h1>
-                    <!-- <hr class="tagline-divider">
-                        <h2>
-                            <small>
-                                <strong>環境變遷研究中心</strong>
-                            </small>
+        <div class="row">
+                <div class="box">
+                    <div class="col-lg-16 text-center">
+                        <!-- <h2 class="brand-before">
+                            <small>Welcome to</small>
                         </h2> -->
+                        <h1 class="brand-name">空氣品質與區域氣候研究室</h1>
+                        <!-- <hr class="tagline-divider">
+                            <h2>
+                                <small>
+                                    <strong>環境變遷研究中心</strong>
+                                </small>
+                            </h2> -->
+                    </div>
                 </div>
-            </div>
         </div>
+    </div>
+
     <!-- Navigation -->
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -66,20 +70,22 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="/">目前天氣</a>
+                        <a href="/"><strong><h4>目前天氣</h4></strong></a>
                     </li>
                     <li>
-                        <a href="/WRT">風速溫度雨量時序圖</a>
+                        <a href="/WRT"><strong><h4>風速溫度雨量時序圖</h4></strong></a>
                     </li>
                     <li>
-                        <a href="http://www.rcec.sinica.edu.tw/~cylin/lab/real-time-simulation.htm">WRF氣象場</a>
+                        <a href="http://www.rcec.sinica.edu.tw/~cylin/lab/real-time-simulation.htm"><strong>WRF氣象場</strong></a>
                     </li>
                     <li>
-                        <a href="http://www.rcec.sinica.edu.tw/WRF/N/qv.wd.htm">模擬實驗</a>
+                        <a href="http://www.rcec.sinica.edu.tw/WRF/N/qv.wd.htm"><strong>模擬實驗</strong></a>
                     </li>
                     <li>
-                        <a href="http://www.rcec.sinica.edu.tw/WRF/N/qv.wd.htm">
-                        模擬實驗2</a>
+                        <a href="http://www.rcec.sinica.edu.tw/WRF/N/qv.wd.htm"><strong>模擬實驗2</strong></a>
+                    </li>
+                    <li>
+                        <a href="http://www.rcec.sinica.edu.tw/WRF/N/qv.wd.htm"><strong>模擬實驗3</strong></a>
                     </li>
                 </ul>
             </div>
@@ -92,97 +98,1015 @@
 
         <div class="row">
             <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center">
-                        <strong>風速溫度雨量時序圖</strong>
-                    </h2>
-                    <hr>
+                <div class="col-lg-2">
+
                 </div>
-                <div class="col-lg-12 text-center">
-                    <img class="img-rounded center-block" src="public/stylesheets/img/north_sta_name.jpg" width="810" height="390" usemap="#N_Map" alt="">
-                        <map name="N_Map">
-                            <area shape="rect" coords="364,357,408,383" href="http://www.rcec.sinica.edu.tw/WRF/N/San-Yi_day_choice.2016.htm">
-                            <area shape="rect" coords="382,304,424,329" href="http://www.rcec.sinica.edu.tw/WRF/N/Miao-Li_day_choice.2016.htm">
-                            <area shape="rect" coords="611,285,653,307" href="http://www.rcec.sinica.edu.tw/WRF/N/Tung-Shan_day_choice.2016.htm">
-                            <area shape="rect" coords="393,281,437,304" href="http://www.rcec.sinica.edu.tw/WRF/N/Tou-Fen_day_choice.2016.htm">
-                            <area shape="rect" coords="445,257,487,281" href="http://www.rcec.sinica.edu.tw/WRF/N/Chu-Tung_day_choice.2016.htm">
-                            <area shape="rect" coords="366,229,405,255" href="http://www.rcec.sinica.edu.tw/WRF/N/Hsin-Chuz_day_choice.2016.htm">
-                            <area shape="rect" coords="599,251,639,279" href="http://www.rcec.sinica.edu.tw/WRF/N/Yi-Lan_day_choice.2016.htm">
-                            <area shape="rect" coords="515,206,549,225" href="http://www.rcec.sinica.edu.tw/WRF/N/Tu-Cheng_day_choice.2016.htm">
-                            <area shape="rect" coords="479,204,517,227" href="http://www.rcec.sinica.edu.tw/WRF/N/Tao-Yuan_day_choice.2016.htm">
-                            <area shape="rect" coords="427,196,464,218" href="http://www.rcec.sinica.edu.tw/WRF/N/Chung-Li_day_choice.2016.htm">
-                            <area shape="rect" coords="392,174,431,199" href="http://www.rcec.sinica.edu.tw/WRF/N/Kuan-Yin_day_choice.2016.htm">
-                            <area shape="rect" coords="546,190,582,212" href="http://www.rcec.sinica.edu.tw/WRF/N/Ku-Ting_day_choice.2016.htm">
-                            <area shape="rect" coords="581,168,618,192" href="http://www.rcec.sinica.edu.tw/WRF/N/Hsi-Chih_day_choice.2016.htm">
-                            <area shape="rect" coords="434,151,471,175" href="http://www.rcec.sinica.edu.tw/WRF/N/Ta-Yuan_day_choice.2016.htm">
-                            <area shape="rect" coords="470,151,504,175" href="http://www.rcec.sinica.edu.tw/WRF/N/Lin-Kou_day_choice.2016.htm">
-                            <area shape="rect" coords="482,131,521,154" href="http://www.rcec.sinica.edu.tw/WRF/N/Tan-Shui_day_choice.2016.htm">
-                            <area shape="rect" coords="609,146,646,171" href="http://www.rcec.sinica.edu.tw/WRF/N/Chi-Lung_day_choice.2016.htm">
-                            <area shape="rect" coords="588,119,624,141" href="http://www.rcec.sinica.edu.tw/WRF/N/Wan-Li_day_choice.2016.htm">
-                            <area shape="rect" coords="534,113,575,135" href="http://www.rcec.sinica.edu.tw/WRF/N/Yang-Ming_day_choice.2016.htm">
-                        </map>
-                    <h2>北區
-                        <br>
-                        <small>October 13, 2013</small>
-                    </h2>
-                    <hr>
-                </div>
-                <div class="col-lg-12 text-center">
-                    <img class="img-rounded center-block" src="public/stylesheets/img/center_sta_name.jpg" width="730" height="223" usemap="#C_Map" alt="">
-                        <map name="C_Map">
-                            <area shape="rect" coords="465,73,499,96" href="http://www.rcec.sinica.edu.tw/WRF/N/Hua-Lien_day_choice.2016.htm">
-                            <area shape="rect" coords="374,75,413,96" href="http://www.rcec.sinica.edu.tw/WRF/N/Pu-Li_day_choice.2016.htm">
-                            <area shape="rect" coords="175,198,214,217" href="http://www.rcec.sinica.edu.tw/WRF/N/Pu-Tzu_day_choice.2016.htm">
-                            <area shape="rect" coords="255,187,296,210" href="http://www.rcec.sinica.edu.tw/WRF/N/Chia-Yi_day_choice.2016.htm">
-                            <area shape="rect" coords="224,160,264,184" href="http://www.rcec.sinica.edu.tw/WRF/N/Hsin-Kang_day_choice.2016.htm">
-                            <area shape="rect" coords="272,152,311,176" href="http://www.rcec.sinica.edu.tw/WRF/N/Tou-Liu_day_choice.2016.htm">
-                            <area shape="rect" coords="311,127,351,150" href="http://www.rcec.sinica.edu.tw/WRF/N/Chu-Shan_day_choice.2016.htm">
-                            <area shape="rect" coords="239,116,275,139" href="http://www.rcec.sinica.edu.tw/WRF/N/Lun-Pei_day_choice.2016.htm">
-                            <area shape="rect" coords="190,120,227,144" href="http://www.rcec.sinica.edu.tw/WRF/N/Tai-Hsi_day_choice.2016.htm">
-                            <area shape="rect" coords="312,89,355,111" href="http://www.rcec.sinica.edu.tw/WRF/N/Nan-Tou_day_choice.2016.htm">
-                            <area shape="rect" coords="254,86,290,107" href="http://www.rcec.sinica.edu.tw/WRF/N/Erh-Lin_day_choice.2016.htm">
-                            <area shape="rect" coords="265,62,304,81" href="http://www.rcec.sinica.edu.tw/WRF/N/Chang-Hua_day_choice.2016.htm">
-                            <area shape="rect" coords="309,49,351,69" href="http://www.rcec.sinica.edu.tw/WRF/N/Ta-Liz_day_choice.2016.htm">
-                            <area shape="rect" coords="221,33,261,56" href="http://www.rcec.sinica.edu.tw/WRF/N/Hsien-Hsi_day_choice.2016.htm">
-                            <area shape="rect" coords="305,25,346,45" href="http://www.rcec.sinica.edu.tw/WRF/N/Chung-Ming_day_choice.2016.htm">
-                            <area shape="rect" coords="244,10,283,31" href="http://www.rcec.sinica.edu.tw/WRF/N/Sha-Lu_day_choice.2016.htm">
-                            <area shape="rect" coords="320,3,356,24" href="http://www.rcec.sinica.edu.tw/WRF/N/Feng-Yuan_day_choice.2016.htm">
-                        </map>
-                    <h2>中區
-                        <br>
-                        <small>October 13, 2013</small>
-                    </h2>
-                    <hr>
-                </div>
-                <div class="col-lg-12 text-center">
-                    <img class="img-rounded center-block" width="731" height="426" usemap="S_Map" src="public/stylesheets/img/south_sta_name.jpg" alt="">
-                        <map name="S_Map">
-                            <area shape="rect" coords="321,347,354,368" href="http://www.rcec.sinica.edu.tw/WRF/N/Heng-Chun_day_choice.2016.htm">
-                            <area shape="rect" coords="368,163,409,188" href="http://www.rcec.sinica.edu.tw/WRF/N/Tai-Tung_day_choice.2016.htm">
-                            <area shape="rect" coords="243,250,285,272" href="http://www.rcec.sinica.edu.tw/WRF/N/Lin-Yuan_day_choice.2016.htm">
-                            <area shape="rect" coords="288,225,327,247" href="http://www.rcec.sinica.edu.tw/WRF/N/Chao-Chou_day_choice.2016.htm">
-                            <area shape="rect" coords="235,203,274,227" href="http://www.rcec.sinica.edu.tw/WRF/N/Hsiao-Kang_day_choice.2016.htm">
-                            <area shape="rect" coords="270,185,309,207" href="http://www.rcec.sinica.edu.tw/WRF/N/Ping-Tung_day_choice.2016.htm">
-                            <area shape="rect" coords="216,165,255,190" href="http://www.rcec.sinica.edu.tw/WRF/N/Tso-Ying_day_choice.2016.htm">
-                            <area shape="rect" coords="281,130,320,154" href="http://www.rcec.sinica.edu.tw/WRF/N/Mei-Nung_day_choice.2016.htm">
-                            <area shape="rect" coords="211,106,250,131" href="http://www.rcec.sinica.edu.tw/WRF/N/Tai-Nan_day_choice.2016.htm">
-                            <area shape="rect" coords="228,76,267,96" href="http://www.rcec.sinica.edu.tw/WRF/N/Shan-Hua_day_choice.2016.htm">
-                            <area shape="rect" coords="234,26,273,48" href="http://www.rcec.sinica.edu.tw/WRF/N/Hsin-Ying_day_choice.2016.htm">
-                        </map>
-                    <h2>南區
-                        <br>
-                        <small>October 13, 2013</small>
-                    </h2>
-                    <hr>
-                </div>
-                <div class="col-lg-12 text-center">
-                    <ul class="pager">
-                        <li class="previous"><a href="#">&larr; Older</a>
-                        </li>
-                        <li class="next"><a href="#">Newer &rarr;</a>
-                        </li>
-                    </ul>
+                <div class="col-lg-8">
+                
+                    <div class="col-lg-12">
+                        <hr>
+                        <h2 class="intro-text text-center">
+                            <strong>風速溫度雨量時序圖</strong>
+                        </h2>
+                        <hr>
+                    </div>
+                    <div id="map" style="width:700px;height:700px"></div>
+                    <script>
+                        var mapCanvas = document.getElementById("map");
+                        var mapOptions = {
+                            center: new google.maps.LatLng(23.6,121), zoom: 7
+
+                            
+                        }
+                        var map = new google.maps.Map(mapCanvas, mapOptions);
+
+                        var Hsi_Chih={lat:25.06597,lng:121.65960};
+                        var hsi_chi=new google.maps.Marker({
+                            position:Hsi_Chih,
+                            map:map,
+                            titile:'汐止'
+                        });
+                        var hsi_chi_infowin = new google.maps.InfoWindow({
+                            content:"汐止"
+                          });
+                        hsi_chi.addListener('click', function() {
+                            hsi_chi_infowin.open(map, hsi_chi);
+                          });
+
+
+                        var Wan_Li={lat:25.17966,lng:121.68987};
+                        var wan_li=new google.maps.Marker({
+                            position:Wan_Li,
+                            map:map,
+                            titile:'萬里'
+                        });
+                        var wan_li_infowin = new google.maps.InfoWindow({
+                            content:"萬里 "
+                          });
+                        wan_li.addListener('click', function() {
+                            wan_li_infowin.open(map, wan_li);
+                          });
+
+
+                        var Hsin_Tien={lat:24.97154,lng:121.53709};
+                        var hsin_tien=new google.maps.Marker({
+                            position:Hsin_Tien,
+                            map:map,
+                            titile:'新店'
+                        });
+                        var hsin_tien_infowin = new google.maps.InfoWindow({
+                            content:"新店"
+                          });
+                        hsin_tien.addListener('click', function() {
+                            hsin_tien_infowin.open(map, hsin_tien);
+                          });
+
+
+                        var Tu_Cheng={lat:24.98252,lng:121.45186};
+                        var tu_cheng=new google.maps.Marker({
+                            position:Tu_Cheng,
+                            map:map,
+                            titile:'土城'
+                        });
+                        var tu_cheng_infowin = new google.maps.InfoWindow({
+                            content:"土城"
+                          });
+                        tu_cheng.addListener('click', function() {
+                            tu_cheng_infowin.open(map, tu_cheng);
+                          });
+
+
+                        var Pan_Chiao={lat:25.01297,lng:121.45866};
+                        var pan_chiao=new google.maps.Marker({
+                            position:Pan_Chiao,
+                            map:map,
+                            titile:'板橋'
+                        });
+                        var pan_chiao_infowin = new google.maps.InfoWindow({
+                            content:"板橋"
+                          });
+                        pan_chiao.addListener('click', function() {
+                            pan_chiao_infowin.open(map, pan_chiao);
+                          });
+
+
+                        var Hsin_Chuang={lat:25.03405,lng:121.43257};
+                        var hsin_chuang=new google.maps.Marker({
+                            position:Hsin_Chuang,
+                            map:map,
+                            titile:'新莊'
+                        });
+                        var hsin_chuang_infowin = new google.maps.InfoWindow({
+                            content:"新莊"
+                          });
+                        hsin_chuang.addListener('click', function() {
+                            hsin_chuang_infowin.open(map, hsin_chuang);
+                          });
+
+
+                        var Tsai_Liao={lat:25.06392,lng:121.48831};
+                        var tsai_liao=new google.maps.Marker({
+                            position:Tsai_Liao,
+                            map:map,
+                            titile:'菜寮'
+                        });
+                        var tsai_liao_infowin = new google.maps.InfoWindow({
+                            content:"菜寮"
+                          });
+                        tsai_liao.addListener('click', function() {
+                            tsai_liao_infowin.open(map, tsai_liao);
+                          });
+
+                        var Lin_Kou={lat:25.07719,lng:121.37686};
+                        var lin_kou=new google.maps.Marker({
+                            position:Lin_Kou,
+                            map:map,
+                            titile:'林口'
+                        });
+                        var lin_kou_infowin = new google.maps.InfoWindow({
+                            content:"林口"
+                          });
+                        lin_kou.addListener('click', function() {
+                            lin_kou_infowin.open(map, lin_kou);
+                          });
+
+
+                        var Tan_Shui={lat:25.16450,lng:121.44923};
+                        var tan_shui=new google.maps.Marker({
+                            position:Tan_Shui,
+                            map:map,
+                            titile:'淡水'
+                        });
+                        var tan_shui_infowin = new google.maps.InfoWindow({
+                            content:"淡水"
+                          });
+                        tan_shui.addListener('click', function() {
+                            tan_shui_infowin.open(map, tan_shui);
+                          });
+
+
+                        var Shih_Lin={lat:25.10541,lng:121.51538};
+                        var shih_lin=new google.maps.Marker({
+                            position:Shih_Lin,
+                            map:map,
+                            titile:'士林'
+                        });
+                        var shih_lin_infowin = new google.maps.InfoWindow({
+                            content:'士林'
+                          });
+                        shih_lin.addListener('click', function() {
+                            shih_lin_infowin.open(map, shih_lin);
+                          });
+
+
+                        var Hsin_Tien={lat:24.97154,lng:121.53709};
+                        var hsin_tien=new google.maps.Marker({
+                            position:Hsin_Tien,
+                            map:map,
+                            titile:'中山'
+                        });
+                        var hsin_tien_infowin = new google.maps.InfoWindow({
+                            content:"中山"
+                          });
+                        hsin_tien.addListener('click', function() {
+                            hsin_tien_infowin.open(map, hsin_tien);
+                          });
+
+
+                        var Wan_Hua={lat:25.02972,lng:121.49857};
+                        var wan_hua=new google.maps.Marker({
+                            position:Wan_Hua,
+                            map:map,
+                            title:'萬華'
+                        });
+                        var wan_hua_infowin=new google.maps.InfoWindow({
+                            content:'萬華'
+                        });
+                            wan_hua.addListener('click', function() {
+                            wan_hua_infowin.open(map,wan_hua);
+                        });
+
+
+                        var Ku_Ting={lat:25.02060,lng:121.52954};
+                        var ku_ting=new google.maps.Marker({
+                            position:Ku_Ting,
+                            map:map,
+                            title:'古亭'
+                        });
+                        var ku_ting_infowin=new google.maps.InfoWindow({
+                            content:'古亭'
+                        });
+                            ku_ting.addListener('click', function() {
+                            ku_ting_infowin.open(map,ku_ting);
+                        });
+
+                        var Sung_Shan={lat:25.05069,lng:121.57854};
+                        var sung_shan=new google.maps.Marker({
+                            position:Sung_Shan,
+                            map:map,
+                            title:'松山'
+                        });
+                        var sung_shan_infowin=new google.maps.InfoWindow({
+                            content:'松山'
+                        });
+                            sung_shan.addListener('click', function() {
+                            sung_shan_infowin.open(map,sung_shan);
+                        });
+
+                        var Tao_Yuan={lat:24.99478,lng:121.31995};
+                        var tao_yuan=new google.maps.Marker({
+                            position:Tao_Yuan,
+                            map:map,
+                            title:'桃園'
+                        });
+                        var tao_yuan_infowin=new google.maps.InfoWindow({
+                            content:'桃園'
+                        });
+                            tao_yuan.addListener('click', function() {
+                            tao_yuan_infowin.open(map,tao_yuan);
+                        });
+
+                        var Ta_Yuan={lat:25.06034,lng:121.20181};
+                        var ta_yuan=new google.maps.Marker({
+                            position:Ta_Yuan,
+                            map:map,
+                            title:'大園'
+                        });
+                        var ta_yuan_infowin=new google.maps.InfoWindow({
+                            content:'大園'
+                        });
+                            ta_yuan.addListener('click', function() {
+                            ta_yuan_infowin.open(map,ta_yuan);
+                        });
+
+                        var Kuan_Yin={lat:25.03549,lng:121.08275};
+                        var kuan_yin=new google.maps.Marker({
+                            position:Kuan_Yin,
+                            map:map,
+                            title:'觀音'
+                        });
+                        var kuan_yin_infowin=new google.maps.InfoWindow({
+                            content:'觀音'
+                        });
+                            kuan_yin.addListener('click', function() {
+                            kuan_yin_infowin.open(map,kuan_yin);
+                        });
+
+                        var Lung_Tan={lat:24.86386,lng:121.21635};
+                        var lung_tan=new google.maps.Marker({
+                            position:Lung_Tan,
+                            map:map,
+                            title:'龍潭'
+                        });
+                        var lung_tan_infowin=new google.maps.InfoWindow({
+                            content:'龍潭'
+                        });
+                            lung_tan.addListener('click', function() {
+                            lung_tan_infowin.open(map,lung_tan);
+                        });
+
+                        var Hu_Kou={lat:24.90014,lng:121.03864};
+                        var hu_kou=new google.maps.Marker({
+                            position:Hu_Kou,
+                            map:map,
+                            title:'湖口'
+                        });
+                        var hu_kou_infowin=new google.maps.InfoWindow({
+                            content:'湖口'
+                        });
+                            hu_kou.addListener('click', function() {
+                            hu_kou_infowin.open(map,hu_kou);
+                        });
+
+                        var Chu_Tung={lat:24.74064,lng:121.08889};
+                        var chu_tung=new google.maps.Marker({
+                            position:Chu_Tung,
+                            map:map,
+                            title:'竹東'
+                        });
+                        var chu_tung_infowin=new google.maps.InfoWindow({
+                            content:'竹東'
+                        });
+                            chu_tung.addListener('click', function() {
+                            chu_tung_infowin.open(map,chu_tung);
+                        });
+
+                        var Hsin_Chuz={lat:24.80561,lng:120.97206};
+                        var hsin_chuz=new google.maps.Marker({
+                            position:Hsin_Chuz,
+                            map:map,
+                            title:'新竹'
+                        });
+                        var hsin_chuz_infowin=new google.maps.InfoWindow({
+                            content:'新竹'
+                        });
+                            hsin_chuz.addListener('click', function() {
+                            hsin_chuz_infowin.open(map,hsin_chuz);
+                        });
+
+                        var Tou_Fen={lat:24.69696,lng:120.89856};
+                        var tou_fen=new google.maps.Marker({
+                            position:Tou_Fen,
+                            map:map,
+                            title:'頭份'
+                        });
+                        var tou_fen_infowin=new google.maps.InfoWindow({
+                            content:'頭份'
+                        });
+                            tou_fen.addListener('click', function() {
+                            tou_fen_infowin.open(map,tou_fen);
+                        });
+
+                        var Miao_Li={lat:24.56526,lng:120.82019};
+                        var miao_li=new google.maps.Marker({
+                            position:Miao_Li,
+                            map:map,
+                            title:'苗栗'
+                        });
+                        var miao_li_infowin=new google.maps.InfoWindow({
+                            content:'苗栗'
+                        });
+                            miao_li.addListener('click', function() {
+                            miao_li_infowin.open(map,miao_li);
+                        });
+
+                        var San_Yi={lat:24.38293,lng:120.75883};
+                        var san_yi=new google.maps.Marker({
+                            position:San_Yi,
+                            map:map,
+                            title:'三義'
+                        });
+                        var san_yi_infowin=new google.maps.InfoWindow({
+                            content:'三義'
+                        });
+                            san_yi.addListener('click', function() {
+                            san_yi_infowin.open(map,san_yi);
+                        });
+
+                        var Feng_Yuan={lat:24.24823,lng:120.71370};
+                        var feng_yuan=new google.maps.Marker({
+                            position:Feng_Yuan,
+                            map:map,
+                            title:'豐原'
+                        });
+                        var feng_yuan_infowin=new google.maps.InfoWindow({
+                            content:'豐原'
+                        });
+                            feng_yuan.addListener('click', function() {
+                            feng_yuan_infowin.open(map,feng_yuan);
+                        });
+
+                        var Sha_Lu={lat:24.22562,lng:120.56878};
+                        var sha_lu=new google.maps.Marker({
+                            position:Sha_Lu,
+                            map:map,
+                            title:'沙鹿'
+                        });
+                        var sha_lu_infowin=new google.maps.InfoWindow({
+                            content:'沙鹿'
+                        });
+                            sha_lu.addListener('click', function() {
+                            sha_lu_infowin.open(map,sha_lu);
+                        });
+
+                        var Ta_Liz={lat:24.09960,lng:120.67768};
+                        var ta_liz=new google.maps.Marker({
+                            position:Ta_Liz,
+                            map:map,
+                            title:'大里'
+                        });
+                        var ta_liz_infowin=new google.maps.InfoWindow({
+                            content:'大里'
+                        });
+                            ta_liz.addListener('click', function() {
+                            ta_liz_infowin.open(map,ta_liz);
+                        });
+
+                        var Chung_Ming={lat:24.15866,lng:120.65950};
+                        var chung_ming=new google.maps.Marker({
+                            position:Chung_Ming,
+                            map:map,
+                            title:'忠明'
+                        });
+                        var chung_ming_infowin=new google.maps.InfoWindow({
+                            content:'忠明'
+                        });
+                            chung_ming.addListener('click', function() {
+                            chung_ming_infowin.open(map,chung_ming);
+                        });
+
+                        var Hsi_Tun={lat:24.16219,lng:120.61691};
+                        var hsi_tun=new google.maps.Marker({
+                            position:Hsi_Tun,
+                            map:map,
+                            title:'西屯'
+                        });
+                        var hsi_tun_infowin=new google.maps.InfoWindow({
+                            content:'西屯'
+                        });
+                            hsi_tun.addListener('click', function() {
+                            hsi_tun_infowin.open(map,hsi_tun);
+                        });
+
+                        var Chang_Hua={lat:24.08366,lng:120.53231};
+                        var chang_hua=new google.maps.Marker({
+                            position:Chang_Hua,
+                            map:map,
+                            title:'彰化'
+                        });
+                        var chang_hua_infowin=new google.maps.InfoWindow({
+                            content:'彰化'
+                        });
+                            chang_hua.addListener('click', function() {
+                            chang_hua_infowin.open(map,chang_hua);
+                        });
+
+                        var Hsien_Hsi={lat:24.13166,lng:120.46905};
+                        var hsien_hsi=new google.maps.Marker({
+                            position:Hsien_Hsi,
+                            map:map,
+                            title:'線西'
+                        });
+                        var hsien_hsi_infowin=new google.maps.InfoWindow({
+                            content:'線西'
+                        });
+                            hsien_hsi.addListener('click', function() {
+                            hsien_hsi_infowin.open(map,hsien_hsi);
+                        });
+
+                        var Erh_Lin={lat:23.92516,lng:120.40965};
+                        var erh_lin=new google.maps.Marker({
+                            position:Erh_Lin,
+                            map:map,
+                            title:'二林'
+                        });
+                        var erh_lin_infowin=new google.maps.InfoWindow({
+                            content:'二林'
+                        });
+                            erh_lin.addListener('click', function() {
+                            erh_lin_infowin.open(map,erh_lin);
+                        });
+
+                        var Nan_Tou={lat:23.91300,lng:120.68530};
+                        var nan_tou=new google.maps.Marker({
+                            position:Nan_Tou,
+                            map:map,
+                            title:'南投'
+                        });
+                        var nan_tou_infowin=new google.maps.InfoWindow({
+                            content:'南投'
+                        });
+                            nan_tou.addListener('click', function() {
+                            nan_tou_infowin.open(map,nan_tou);
+                        });
+
+                        var Tou_Liu={lat:23.71185,lng:120.54499};
+                        var tou_liu=new google.maps.Marker({
+                            position:Tou_Liu,
+                            map:map,
+                            title:'斗六'
+                        });
+                        var tou_liu_infowin=new google.maps.InfoWindow({
+                            content:'斗六'
+                        });
+                            tou_liu.addListener('click', function() {
+                            tou_liu_infowin.open(map,tou_liu);
+                        });
+
+                        var Lun_Pei={lat:23.75754,lng:120.34873};
+                        var lun_pei=new google.maps.Marker({
+                            position:Lun_Pei,
+                            map:map,
+                            title:'崙背'
+                        });
+                        var lun_pei_infowin=new google.maps.InfoWindow({
+                            content:'崙背'
+                        });
+                            lun_pei.addListener('click', function() {
+                            lun_pei_infowin.open(map,lun_pei);
+                        });
+
+                        var Hsin_Kang={lat:23.55483,lng:120.34552};
+                        var hsin_kang=new google.maps.Marker({
+                            position:Hsin_Kang,
+                            map:map,
+                            title:'新港'
+                        });
+                        var hsin_kang_infowin=new google.maps.InfoWindow({
+                            content:'新港'
+                        });
+                            hsin_kang.addListener('click', function() {
+                            hsin_kang_infowin.open(map,hsin_kang);
+                        });
+
+                        var Pu_Tzu={lat:23.46530,lng:120.24734};
+                        var pu_tzu=new google.maps.Marker({
+                            position:Pu_Tzu,
+                            map:map,
+                            title:'朴子'
+                        });
+                        var pu_tzu_infowin=new google.maps.InfoWindow({
+                            content:'朴子'
+                        });
+                            pu_tzu.addListener('click', function() {
+                            pu_tzu_infowin.open(map,pu_tzu);
+                        });
+
+                        var Tai_Hsi={lat:23.71752,lng:120.20284};
+                        var tai_hsi=new google.maps.Marker({
+                            position:Tai_Hsi,
+                            map:map,
+                            title:'台西'
+                        });
+                        var tai_hsi_infowin=new google.maps.InfoWindow({
+                            content:'台西'
+                        });
+                            tai_hsi.addListener('click', function() {
+                            tai_hsi_infowin.open(map,tai_hsi);
+                        });
+
+                        var Chia_Yi={lat:23.46478,lng:120.43836};
+                        var chia_yi=new google.maps.Marker({
+                            position:Chia_Yi,
+                            map:map,
+                            title:'嘉義'
+                        });
+                        var chia_yi_infowin=new google.maps.InfoWindow({
+                            content:'嘉義'
+                        });
+                            chia_yi.addListener('click', function() {
+                            chia_yi_infowin.open(map,chia_yi);
+                        });
+
+                        var Hsin_Ying={lat:23.30587,lng:120.31711};
+                        var hsin_ying=new google.maps.Marker({
+                            position:Hsin_Ying,
+                            map:map,
+                            title:'新營'
+                        });
+                        var hsin_ying_infowin=new google.maps.InfoWindow({
+                            content:'新營'
+                        });
+                            hsin_ying.addListener('click', function() {
+                            hsin_ying_infowin.open(map,hsin_ying);
+                        });
+
+                        var Shan_Hua={lat:23.11509,lng:120.29713};
+                        var shan_hua=new google.maps.Marker({
+                            position:Shan_Hua,
+                            map:map,
+                            title:'善化'
+                        });
+                        var shan_hua_infowin=new google.maps.InfoWindow({
+                            content:'善化'
+                        });
+                            shan_hua.addListener('click', function() {
+                            shan_hua_infowin.open(map,shan_hua);
+                        });
+
+                        var An_Nan={lat:23.04799,lng:120.21714};
+                        var an_nan=new google.maps.Marker({
+                            position:An_Nan,
+                            map:map,
+                            title:'安南'
+                        });
+                        var an_nan_infowin=new google.maps.InfoWindow({
+                            content:'安南'
+                        });
+                            an_nan.addListener('click', function() {
+                            an_nan_infowin.open(map,an_nan);
+                        });
+
+                        var Tai_Nan={lat:22.98438,lng:120.20225};
+                        var tai_nan=new google.maps.Marker({
+                            position:Tai_Nan,
+                            map:map,
+                            title:'台南'
+                        });
+                        var tai_nan_infowin=new google.maps.InfoWindow({
+                            content:'台南'
+                        });
+                            tai_nan.addListener('click', function() {
+                            tai_nan_infowin.open(map,tai_nan);
+                        });
+
+                        var Mei_Nung={lat:22.88386,lng:120.53032};
+                        var mei_nung=new google.maps.Marker({
+                            position:Mei_Nung,
+                            map:map,
+                            title:'美濃'
+                        });
+                        var mei_nung_infowin=new google.maps.InfoWindow({
+                            content:'美濃'
+                        });
+                            mei_nung.addListener('click', function() {
+                            mei_nung_infowin.open(map,mei_nung);
+                        });
+
+                        var Chiao_Tou={lat:22.75750,lng:120.30568};
+                        var chiao_tou=new google.maps.Marker({
+                            position:Chiao_Tou,
+                            map:map,
+                            title:'橋頭'
+                        });
+                        var chiao_tou_infowin=new google.maps.InfoWindow({
+                            content:'橋頭'
+                        });
+                            chiao_tou.addListener('click', function() {
+                            chiao_tou_infowin.open(map,chiao_tou);
+                        });
+
+                        var Jen_Wu={lat:22.68905,lng:120.33262};
+                        var jen_wu=new google.maps.Marker({
+                            position:Jen_Wu,
+                            map:map,
+                            title:'仁武'
+                        });
+                        var jen_wu_infowin=new google.maps.InfoWindow({
+                            content:'仁武'
+                        });
+                            jen_wu.addListener('click', function() {
+                            jen_wu_infowin.open(map,jen_wu);
+                        });
+
+                        var Feng_Shan={lat:22.62738,lng:120.35808};
+                        var feng_shan=new google.maps.Marker({
+                            position:Feng_Shan,
+                            map:map,
+                            title:'鳳山'
+                        });
+                        var feng_shan_infowin=new google.maps.InfoWindow({
+                            content:'鳳山'
+                        });
+                            feng_shan.addListener('click', function() {
+                            feng_shan_infowin.open(map,feng_shan);
+                        });
+
+                        var Ta_Liao={lat:22.56574,lng:120.42507};
+                        var ta_liao=new google.maps.Marker({
+                            position:Ta_Liao,
+                            map:map,
+                            title:'大寮'
+                        });
+                        var ta_liao_infowin=new google.maps.InfoWindow({
+                            content:'大寮'
+                        });
+                            ta_liao.addListener('click', function() {
+                            ta_liao_infowin.open(map,ta_liao);
+                        });
+
+                        var Lin_Yuan={lat:22.47933,lng:120.41184};
+                        var lin_yuan=new google.maps.Marker({
+                            position:Lin_Yuan,
+                            map:map,
+                            title:'林園'
+                        });
+                        var lin_yuan_infowin=new google.maps.InfoWindow({
+                            content:'林園'
+                        });
+                            lin_yuan.addListener('click', function() {
+                            lin_yuan_infowin.open(map,lin_yuan);
+                        });
+
+                        var Nan_Tzu={lat:22.73366,lng:120.32828};
+                        var nan_tzu=new google.maps.Marker({
+                            position:Nan_Tzu,
+                            map:map,
+                            title:'楠梓'
+                        });
+                        var nan_tzu_infowin=new google.maps.InfoWindow({
+                            content:'楠梓'
+                        });
+                            nan_tzu.addListener('click', function() {
+                            nan_tzu_infowin.open(map,nan_tzu);
+                        });
+
+                        var Tso_Ying={lat:22.67822,lng:120.29538};
+                        var tso_ying=new google.maps.Marker({
+                            position:Tso_Ying,
+                            map:map,
+                            title:'左營'
+                        });
+                        var tso_ying_infowin=new google.maps.InfoWindow({
+                            content:'左營'
+                        });
+                            tso_ying.addListener('click', function() {
+                            tso_ying_infowin.open(map,tso_ying);
+                        });
+
+                        var Chien_Chin={lat:22.63256,lng:120.28808};
+                        var chien_chin=new google.maps.Marker({
+                            position:Chien_Chin,
+                            map:map,
+                            title:'前金'
+                        });
+                        var chien_chin_infowin=new google.maps.InfoWindow({
+                            content:'前金'
+                        });
+                            chien_chin.addListener('click', function() {
+                            chien_chin_infowin.open(map,chien_chin);
+                        });
+
+                        var Chien_Chen={lat:22.60538,lng:120.30756};
+                        var chien_chen=new google.maps.Marker({
+                            position:Chien_Chen,
+                            map:map,
+                            title:'前鎮'
+                        });
+                        var chien_chen_infowin=new google.maps.InfoWindow({
+                            content:'前鎮'
+                        });
+                            chien_chen.addListener('click', function() {
+                            chien_chen_infowin.open(map,chien_chen);
+                        });
+
+                        var Hsiao_Kang={lat:22.56583,lng:120.33773};
+                        var hsiao_kang=new google.maps.Marker({
+                            position:Hsiao_Kang,
+                            map:map,
+                            title:'小港'
+                        });
+                        var hsiao_kang_infowin=new google.maps.InfoWindow({
+                            content:'小港'
+                        });
+                            hsiao_kang.addListener('click', function() {
+                            hsiao_kang_infowin.open(map,hsiao_kang);
+                        });
+
+                        var Ping_Tung={lat:22.67307,lng:120.48803};
+                        var ping_tung=new google.maps.Marker({
+                            position:Ping_Tung,
+                            map:map,
+                            title:'屏東'
+                        });
+                        var ping_tung_infowin=new google.maps.InfoWindow({
+                            content:'屏東'
+                        });
+                            ping_tung.addListener('click', function() {
+                            ping_tung_infowin.open(map,ping_tung);
+                        });
+
+                        var Chao_Chou={lat:22.52310,lng:120.56117};
+                        var chao_chou=new google.maps.Marker({
+                            position:Chao_Chou,
+                            map:map,
+                            title:'潮州'
+                        });
+                        var chao_chou_infowin=new google.maps.InfoWindow({
+                            content:'潮州'
+                        });
+                            chao_chou.addListener('click', function() {
+                            chao_chou_infowin.open(map,chao_chou);
+                        });
+
+                        var Heng_Chun={lat:21.95806,lng:120.78892};
+                        var heng_chun=new google.maps.Marker({
+                            position:Heng_Chun,
+                            map:map,
+                            title:'恆春'
+                        });
+                        var heng_chun_infowin=new google.maps.InfoWindow({
+                            content:'恆春'
+                        });
+                            heng_chun.addListener('click', function() {
+                            heng_chun_infowin.open(map,heng_chun);
+                        });
+
+                        var Tai_Tung={lat:22.75535,lng:121.15045};
+                        var tai_tung=new google.maps.Marker({
+                            position:Tai_Tung,
+                            map:map,
+                            title:'台東'
+                        });
+                        var tai_tung_infowin=new google.maps.InfoWindow({
+                            content:'台東'
+                        });
+                            tai_tung.addListener('click', function() {
+                            tai_tung_infowin.open(map,tai_tung);
+                        });
+
+                        var Hua_Lien={lat:23.97194,lng:121.59976};
+                        var hua_lien=new google.maps.Marker({
+                            position:Hua_Lien,
+                            map:map,
+                            title:'花蓮'
+                        });
+                        var hua_lien_infowin=new google.maps.InfoWindow({
+                            content:'花蓮'
+                        });
+                            hua_lien.addListener('click', function() {
+                            hua_lien_infowin.open(map,hua_lien);
+                        });
+
+                        var Yang_Ming={lat:25.18271,lng:121.52957};
+                        var yang_ming=new google.maps.Marker({
+                            position:Yang_Ming,
+                            map:map,
+                            title:'陽明'
+                        });
+                        var yang_ming_infowin=new google.maps.InfoWindow({
+                            content:'陽明'
+                        });
+                            yang_ming.addListener('click', function() {
+                            yang_ming_infowin.open(map,yang_ming);
+                        });
+
+                        var Yi_Lan={lat:24.74791,lng:121.74639};
+                        var yi_lan=new google.maps.Marker({
+                            position:Yi_Lan,
+                            map:map,
+                            title:'宜蘭'
+                        });
+                        var yi_lan_infowin=new google.maps.InfoWindow({
+                            content:'宜蘭'
+                        });
+                            yi_lan.addListener('click', function() {
+                            yi_lan_infowin.open(map,yi_lan);
+                        });
+
+                        var Tung_Shan={lat:24.63343,lng:121.79386};
+                        var tung_shan=new google.maps.Marker({
+                            position:Tung_Shan,
+                            map:map,
+                            title:'冬山'
+                        });
+                        var tung_shan_infowin=new google.maps.InfoWindow({
+                            content:'冬山'
+                        });
+                            tung_shan.addListener('click', function() {
+                            tung_shan_infowin.open(map,tung_shan);
+                        });
+
+                        var San_Chung={lat:25.07260,lng:121.49380};
+                        var san_chung=new google.maps.Marker({
+                            position:San_Chung,
+                            map:map,
+                            title:'三重'
+                        });
+                        var san_chung_infowin=new google.maps.InfoWindow({
+                            content:'三重'
+                        });
+                            san_chung.addListener('click', function() {
+                            san_chung_infowin.open(map,san_chung);
+                        });
+
+                        var Chung_Li={lat:24.95327,lng:121.22166};
+                        var chung_li=new google.maps.Marker({
+                            position:Chung_Li,
+                            map:map,
+                            title:'中壢'
+                        });
+                        var chung_li_infowin=new google.maps.InfoWindow({
+                            content:'中壢'
+                        });
+                            chung_li.addListener('click', function() {
+                            chung_li_infowin.open(map,chung_li);
+                        });
+
+                        var Chu_Shan={lat:23.75638,lng:120.67729};
+                        var chu_shan=new google.maps.Marker({
+                            position:Chu_Shan,
+                            map:map,
+                            title:'竹山'
+                        });
+                        var chu_shan_infowin=new google.maps.InfoWindow({
+                            content:'竹山'
+                        });
+                            chu_shan.addListener('click', function() {
+                            chu_shan_infowin.open(map,chu_shan);
+                        });
+
+                        var Yung_Ho={lat:25.01699,lng:121.51630};
+                        var yung_ho=new google.maps.Marker({
+                            position:Yung_Ho,
+                            map:map,
+                            title:'永和'
+                        });
+                        var yung_ho_infowin=new google.maps.InfoWindow({
+                            content:'永和'
+                        });
+                            yung_ho.addListener('click', function() {
+                            yung_ho_infowin.open(map,yung_ho);
+                        });
+
+                        var Fu_Hsing={lat:22.60871,lng:120.31201};
+                        var fu_hsing=new google.maps.Marker({
+                            position:Fu_Hsing,
+                            map:map,
+                            title:'復興'
+                        });
+                        var fu_hsing_infowin=new google.maps.InfoWindow({
+                            content:'復興'
+                        });
+                            fu_hsing.addListener('click', function() {
+                            fu_hsing_infowin.open(map,fu_hsing);
+                        });
+
+                        var Pu_Li={lat:23.97066,lng:120.96726};
+                        var pu_li=new google.maps.Marker({
+                            position:Pu_Li,
+                            map:map,
+                            title:'埔里'
+                        });
+                        var pu_li_infowin=new google.maps.InfoWindow({
+                            content:'埔里'
+                        });
+                            pu_li.addListener('click', function() {
+                            pu_li_infowin.open(map,pu_li);
+                        });
+
+                        var Ma_Kung={lat:23.56902,lng:119.56615};
+                        var ma_kung=new google.maps.Marker({
+                            position:Ma_Kung,
+                            map:map,
+                            title:'馬公'
+                        });
+                        var ma_kung_infowin=new google.maps.InfoWindow({
+                            content:'馬公'
+                        });
+                            ma_kung.addListener('click', function() {
+                            ma_kung_infowin.open(map,ma_kung);
+                        });
+
+                        var Chin_Men={lat:24.42936,lng:118.31529};
+                        var chin_men=new google.maps.Marker({
+                            position:Chin_Men,
+                            map:map,
+                            title:'金門'
+                        });
+                        var chin_men_infowin=new google.maps.InfoWindow({
+                            content:'金門'
+                        });
+                            chin_men.addListener('click', function() {
+                            chin_men_infowin.open(map,chin_men);
+                        });
+
+                        var Ma_Tsu={lat:26.16095,lng:119.94937};
+                        var ma_tsu=new google.maps.Marker({
+                            position:Ma_Tsu,
+                            map:map,
+                            title:'馬祖'
+                        });
+                        var ma_tsu_infowin=new google.maps.InfoWindow({
+                            content:'馬祖'
+                        });
+                            ma_tsu.addListener('click', function() {
+                            ma_tsu_infowin.open(map,ma_tsu);
+                        });
+
+                        var Chi_Lung={lat:25.12916,lng:121.76005};
+                        var chi_lung=new google.maps.Marker({
+                            position:Chi_Lung,
+                            map:map,
+                            title:'基隆'
+                        });
+                        var chi_lung_infowin=new google.maps.InfoWindow({
+                            content:'基隆'
+                        });
+                            chi_lung.addListener('click', function() {
+                            chi_lung_infowin.open(map,chi_lung);
+                        });
+
+                        var Ping_Chen={lat:24.95331,lng:121.20407};
+                        var ping_chen=new google.maps.Marker({
+                            position:Ping_Chen,
+                            map:map,
+                            title:'平鎮'
+                        });
+                        var ping_chen_infowin=new google.maps.InfoWindow({
+                            content:'平鎮'
+                        });
+                            ping_chen.addListener('click', function() {
+                            ping_chen_infowin.open(map,ping_chen);
+                        });
+
+                        var Kuan_Shan={lat:23.04508,lng:121.16193};
+                        var kuan_shan=new google.maps.Marker({
+                            position:Kuan_Shan,
+                            map:map,
+                            title:'關山'
+                        });
+                        var kuan_shan_infowin=new google.maps.InfoWindow({
+                            content:'關山'
+                        });
+                            kuan_shan.addListener('click', function() {
+                            kuan_shan_infowin.open(map,kuan_shan);
+                        });
+                    </script>
+                    
+                    
+                    
+                    <div class="col-lg-12 text-center">
+                        <ul class="pager">
+                            <li class="previous"><a href="#">&larr; Older</a>
+                            </li>
+                            <li class="next"><a href="#">Newer &rarr;</a>
+                            </li>
+                        </ul>
+                    </div>
+                 </div>
+
+                <div class="col-lg-2">
                 </div>
             </div>
         </div>
@@ -201,10 +1125,10 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="public/javascripts/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="public/javascripts/js/bootstrap.min.js"></script>
 
 </body>
 

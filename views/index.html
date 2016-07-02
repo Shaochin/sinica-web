@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
 
     <meta charset="utf-8">
@@ -54,6 +55,7 @@
                 </div>
             </div>
         </div>
+    </div>
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -71,20 +73,22 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="/">目前天氣</a>
+                        <a href="/"><strong>目前天氣</strong></a>
                     </li>
                     <li>
-                        <a href="/WRT">風速溫度雨量時序圖</a>
+                        <a href="/WRT"><strong>風速溫度雨量時序圖</strong></a>
                     </li>
                     <li>
-                        <a href="http://www.rcec.sinica.edu.tw/~cylin/lab/real-time-simulation.htm">WRF氣象場</a>
+                        <a href="http://www.rcec.sinica.edu.tw/~cylin/lab/real-time-simulation.htm"><strong>WRF氣象場</strong></a>
                     </li>
                     <li>
-                        <a href="http://www.rcec.sinica.edu.tw/WRF/N/qv.wd.htm">模擬實驗</a>
+                        <a href="http://www.rcec.sinica.edu.tw/WRF/N/qv.wd.htm"><strong>模擬實驗</strong></a>
                     </li>
                     <li>
-                        <a href="http://www.rcec.sinica.edu.tw/WRF/N/qv.wd.htm">
-                        模擬實驗2</a>
+                        <a href="http://www.rcec.sinica.edu.tw/WRF/N/qv.wd.htm"><strong>模擬實驗2</strong></a>
+                    </li>
+                     <li>
+                        <a href="http://www.rcec.sinica.edu.tw/WRF/N/qv.wd.html"><strong>模擬實驗3</strong></a>
                     </li>
                 </ul>
             </div>
@@ -95,7 +99,7 @@
 
 
     
-
+    <div class="container">
         <div class="row">
             <div class="box">
                 <div class="col-lg-12">
@@ -106,17 +110,64 @@
                     <hr>
                 </div>
                 <div class="col-sm-4 text-center">
-                    <img class="img-rounded center-block" src="http://www.rcec.sinica.edu.tw/WRF/satellite/s3p.jpg" width="350" height="350" alt="Responsive image">
+                    <img class="img-rounded center-block" src="http://www.rcec.sinica.edu.tw/WRF/satellite/s3p.jpg" width="350" height="350" alt="Responsive image" data-toggle="modal" href="#satellite">
+                        <div class="modal fade" id="satellite" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">衛星雲圖</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img class="img-rounded center-block" src="http://www.rcec.sinica.edu.tw/WRF/satellite/s3p.jpg">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     <h3>衛星雲圖</h3>
                 </div>
                 <div class="col-sm-4 text-center">
-                    <img class="img-rounded center-block" src="http://www.rcec.sinica.edu.tw/WRF/rain/rain.jpg" width="350" height="350" alt="">
+                    <img class="img-rounded center-block" src="http://www.rcec.sinica.edu.tw/WRF/rain/rain.jpg" width="350" height="350" alt="" data-toggle="modal" href="#rain">
+                        <div class="modal fade" id="rain" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">累積降雨</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img class="img-rounded center-block" src="http://www.rcec.sinica.edu.tw/WRF/rain/rain.jpg">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     <h3>累積降雨</h3>
                 </div>
                 <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="http://www.rcec.sinica.edu.tw/WRF/radar/radar.jpg" alt="Responsive image" alt="">
-                    <h3>雷達回波
-                        
+                    <img class="img-rounded" src="http://www.rcec.sinica.edu.tw/WRF/radar/radar.jpg" width="350" height="350" alt="Responsive image" data-toggle="modal" href="#radar">
+                        <div class="modal fade" id="radar" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">雷達回波</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img class="img-rounded center-block" src="http://www.rcec.sinica.edu.tw/WRF/radar/radar.jpg" width="700" height="600">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <h3>雷達回波    
                     </h3>
                 </div>
                 <div class="col-sm-4 text-center">
@@ -128,16 +179,32 @@
                     </h3>
                 </div>
                 <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="public/stylesheets/img/I04.jpg" alt="Responsive image" width="600" height="600" alt="">
+                    <img class="img-rounded" src="http://www.rcec.sinica.edu.tw/WRF/satellite/I04.jpg" width="350" height="350" alt="" data-toggle="modal" href="#ground">
+                        <div class="modal fade" id="ground" role="dialog">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">地面天氣圖</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img class="img-rounded center-block" src="http://www.rcec.sinica.edu.tw/WRF/satellite/I04.jpg" width="800" height="600">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     <h3>地面天氣圖
                        
                     </h3>
                 </div>
                 <div class="col-sm-4 text-center">
                     <a href="http://www.rcec.sinica.edu.tw/WRF/N/mm5_mon_1_12.2016.htm">
-                        <img class="img-responsive" src="public/stylesheets/img/domain1.png" alt="Responsive image" width="800" height="800" alt="">
+                        <img class="img-responsive" src="http://www.rcec.sinica.edu.tw/WRF/N/20160630/D2/surface/srfu-0.gif" alt="Responsive image" width="800" height="800" alt="">
                     </a>
-                    <h3>WRF氣象場-亞洲區
+                    <h3>WRF氣象場-台灣區
                     </h3>
                 </div>
                 <div class="clearfix"></div>
